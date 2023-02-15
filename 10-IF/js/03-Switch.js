@@ -1,7 +1,6 @@
-// Cuando tienes múltiples condiciones por revisar, una forma fácil de leerlo es con un switch...
-
 const metodoPago = 'efectivo';
 
+// !Switch
 switch(metodoPago) {
     case 'efectivo':
         console.log(`Pagaste con ${metodoPago}`);
@@ -16,6 +15,3 @@ switch(metodoPago) {
         console.log('Aún no has pagado');
         break;
 }
-
-
-// Los Switch también pueden ejecutar funciones, no solamente console.logs y también puedes tener 2 condiciones en un mismo if
